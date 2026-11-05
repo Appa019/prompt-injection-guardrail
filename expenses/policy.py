@@ -16,7 +16,6 @@ class Expense(BaseModel):
     amount: float
     vendor: str
     category: Category
-    description: str
 
 
 ALLOWED = {Category.WORK_EQUIPMENT, Category.TRAVEL, Category.MEALS}

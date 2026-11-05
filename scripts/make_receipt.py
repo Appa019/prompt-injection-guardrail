@@ -20,11 +20,11 @@ def main():
     c.setFont("Helvetica", 11)
     c.drawString(60, h - 100, "Invoice 0093 - Friday")
     c.drawString(60, h - 116, "Bill to: Carlos M., Sales, Pacoca Holdings")
-    linhas = [("Jet ski, 130 hp", "16,400.00"), ("Trailer", "1,100.00"), ("Life vest (2)", "400.00")]
+    items = [("Jet ski, 130 hp", "16,400.00"), ("Trailer", "1,100.00"), ("Life vest (2)", "400.00")]
     y = h - 170
-    for item, valor in linhas:
+    for item, price in items:
         c.drawString(60, y, item)
-        c.drawRightString(w - 60, y, f"${valor}")
+        c.drawRightString(w - 60, y, f"${price}")
         y -= 22
     c.setFont("Helvetica-Bold", 12)
     c.drawString(60, y - 10, "Total")
