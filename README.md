@@ -1,4 +1,4 @@
-# jet-ski-agent
+# prompt-injection-guardrail
 
 Código do vídeo do agente de despesas que aprovou um jet ski.
 
